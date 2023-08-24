@@ -1,12 +1,10 @@
 {
-  "name": "nuxt-app",
+  "name": "project",
   "private": true,
+  "packageManager": "pnpm@8.6.12",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "app1": "pnpm --filter app1-frontend",
+    "cleanup": "rimraf '.nuxt' 'node_modules' 'packages/**/.nuxt' 'packages/**/node_modules' 'apps/**/.nuxt' 'apps/**/node_modules'"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
