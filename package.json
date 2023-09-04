@@ -4,7 +4,7 @@
   "packageManager": "pnpm@8.6.12",
   "scripts": {
     "app1": "pnpm --filter app1-frontend",
-    "cleanup": "rimraf '.nuxt' 'node_modules' 'packages/**/.nuxt' 'packages/**/node_modules' 'apps/**/.nuxt' 'apps/**/node_modules'"
+    "cleanup": "rimraf '.nuxt' 'node_modules' 'packages/**/.nuxt' 'packages/**/node_modules' 'apps/**/.nuxt' 'apps/**/node_modules' 'apps/**/.output'"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
